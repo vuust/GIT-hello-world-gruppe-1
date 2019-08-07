@@ -27,6 +27,8 @@ Navigation
 **********************************************/
 .nav {
   background: #de1b5f;
+  font-family: 'Fredoka One', cursive;
+  font-size: 2rem;
   /* padding y / padding x */
   padding: 0.5rem 0;
   position: -webkit-sticky;
