@@ -26,7 +26,7 @@ img {
 Navigation
 **********************************************/
 .nav {
-  background: var(--white);
+  background: #de1b5f;
   /* padding y / padding x */
   padding: 0.5rem 0;
   position: -webkit-sticky;
@@ -158,38 +158,37 @@ index.html - features-2up-areas
 /*********************************************
 footer
 **********************************************/
-footer{
+footer {
   max-width: 1200px;
   margin: auto;
-  display:  grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
-  text-align:  center;
+  text-align: center;
   background-color: black;
   min-height: 300px;
   padding: 10px;
   color: rgb(255, 175, 109);
 }
 
-footer>div{
+footer > div {
   background-color: #de1a1b;
 }
 
-
-footer hr{
+footer hr {
   width: 75%;
   border-color: black;
 }
 
-footer p{
-margin: 0.5px;
+footer p {
+  margin: 0.5px;
 }
 
-footer a{
+footer a {
   color: rgb(255, 175, 109);
   transition: 200ms;
 }
 
-footer a:hover{
+footer a:hover {
   color: white;
 }
