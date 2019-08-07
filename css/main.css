@@ -192,3 +192,13 @@ footer a {
 footer a:hover {
   color: white;
 }
+
+@media screen and (max-width: 900px) {
+  footer{
+    grid-template-columns: 1fr;
+  }
+
+  footer > div {
+  padding: 50px;
+  }
+}
