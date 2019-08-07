@@ -1,0 +1,195 @@
+@import 'variables.css';
+/*********************************************
+Base Styles
+**********************************************/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--primary-font);
+  background: var(--off-white);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* * img {
+  display: block;
+  line-height: 0;
+} */
+
+img {
+  max-width: 100%;
+}
+
+/*********************************************
+Navigation
+**********************************************/
+.nav {
+  background: var(--white);
+  /* padding y / padding x */
+  padding: 0.5rem 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.nav-inner-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  /* padding y / padding x */
+  padding: 0 1.25rem;
+}
+
+.site-title img {
+  padding: 0;
+  display: block;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  /* horizontal space between menu items */
+  margin-left: 1rem;
+}
+
+a {
+  color: var(--lightgrey1);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--lightgrey2);
+}
+
+/*********************************************
+Hero
+**********************************************/
+.hero {
+  /* use for outher margins or full element color */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.hero-inner-wrap {
+  max-width: 1200px;
+  margin: auto;
+  /* padding y / padding x */
+  padding: 0 1.25rem;
+}
+
+/*********************************************
+Headings
+**********************************************/
+h1 {
+  margin: 0;
+  padding: 1rem;
+  /* color: var(--red); */
+  font-size: 70px;
+  font-weight: 300;
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  padding: 1rem;
+  /* color: var(--green); */
+  font-size: 50px;
+  font-weight: 300;
+  text-align: center;
+}
+
+h3 {
+  /* color: var(--yellow); */
+}
+
+h4 {
+  /* color: var(--blue); */
+  text-align: right;
+}
+
+/*********************************************
+index.html - features-2up-areas
+**********************************************/
+.features-2up-areas {
+  /* use for outher margins or full element color */
+  /* background: white; */
+}
+
+.features-2up-areas-inner-wrap {
+  background: white;
+  max-width: 1200px;
+  margin: auto;
+  padding: 1.25rem;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas: 'img1 img2 img3 img4 img5';
+}
+
+.img1 {
+  grid-area: img1;
+}
+
+.img2 {
+  grid-area: img2;
+}
+
+.img3 {
+  grid-area: img3;
+}
+
+.img4 {
+  grid-area: img4;
+}
+
+.img5 {
+  grid-area: img5;
+}
+
+/*********************************************
+footer
+**********************************************/
+footer{
+  max-width: 1200px;
+  margin: auto;
+  display:  grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  text-align:  center;
+  background-color: black;
+  min-height: 300px;
+  padding: 10px;
+  color: rgb(255, 175, 109);
+}
+
+footer>div{
+  background-color: #de1a1b;
+}
+
+
+footer hr{
+  width: 75%;
+  border-color: black;
+}
+
+footer p{
+margin: 0.5px;
+}
+
+footer a{
+  color: rgb(255, 175, 109);
+  transition: 200ms;
+}
+
+footer a:hover{
+  color: white;
+}
