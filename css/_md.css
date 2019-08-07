@@ -39,14 +39,12 @@ index.html - features-2up-areas
 **********************************************/
 .features-2up-areas-inner-wrap {
   display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 100%;
+  grid-gap: 40px;
+  /* grid-template-columns: 100%; */
   grid-template-areas:
-    'img1'
-    'img2'
-    'img3'
-    'img4'
-    'img5';
+    'img1 img2'
+    'img3 img3'
+    'img4 img5';
 }
 
 /*********************************************
