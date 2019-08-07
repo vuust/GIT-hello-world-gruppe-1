@@ -1,0 +1,64 @@
+/* Medium devices (tablets, 900px and down) */
+
+/*********************************************
+Navigation
+**********************************************/
+.nav {
+  /* padding y */
+  padding: 2.5rem;
+}
+
+.nav-inner-wrap {
+  display: flex;
+  /* Stacks logo + menu items on small screens */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  margin: auto;
+}
+
+.site-title img {
+  margin-bottom: 20px;
+}
+
+/*********************************************
+Headings
+**********************************************/
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+/*********************************************
+index.html - features-2up-areas
+**********************************************/
+.features-2up-areas-inner-wrap {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 100%;
+  grid-template-areas:
+    'img1'
+    'img2'
+    'img3'
+    'img4'
+    'img5';
+}
+
+/*********************************************
+footer
+**********************************************/
+footer {
+  padding: 0.5rem;
+}
+
+.footer-inner {
+  max-width: 400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+}
