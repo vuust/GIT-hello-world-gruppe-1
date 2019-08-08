@@ -17,7 +17,7 @@ label {
     text-align: center;
     line-height: 3vh;
     margin: 0.8vw;
-    font-size: 1.8vw;
+    font-size: 1.5vw;
 }
 
 h1{
@@ -40,6 +40,13 @@ button {
     margin-right: auto;
     width: 200px;
     height: 80px;
+    border: none;
+    box-shadow: 1px 4px 9px rgba(55, 55, 55, 0.5);
+}
+
+#commentfield{
+    width: 50%;
+    height: 25vh;
 }
 
 input:focus{
