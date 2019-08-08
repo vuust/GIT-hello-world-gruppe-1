@@ -121,12 +121,17 @@ h4 {
 
 section h4{
 
-  text-align: left;
+  text-align: center;
   margin: 0;
 }
 
 section h3{
   margin: 0;
+  text-align: center;
+}
+
+section h6{
+  text-align: center;
 }
 
 /*********************************************
