@@ -32,17 +32,26 @@ input {
     width: 50%;
     height: 3vh;
     background-color: pink;
+    border: solid 2px black;
+}
+
+input::placeholder{
+    text-align:center;
+    font-size: 1vw;
 }
 
 button {
-    background-color: #de1b5f;
+    background-color: #FF6EDC;
     margin-left: auto;
     margin-right: auto;
     width: 200px;
     height: 80px;
     border: none;
     box-shadow: 1px 4px 9px rgba(55, 55, 55, 0.5);
+    border: solid 2px black;
+    font-family: var(--primary-font);
 }
+
 
 #commentfield{
     width: 50%;
@@ -51,4 +60,18 @@ button {
 
 input:focus{
     outline-color: red;
+}
+
+
+@media only screen and (max-width: 800px){
+    input{
+        width: 80%;
+    }
+    label{
+        font-size: 2vw;
+    }
+    #commentfield{
+        width: 80%;
+    }
+
 }
